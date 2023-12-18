@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9%;
+    padding: 1.3em 3em;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 52%);
+}
+
+.dark-header {
+    background-color: hsl(209, 23%, 22%);
+}
+
+p.where-in-the-world-txt {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.dark-header .mode-container .mode-state {
+    color: #fff;
+}
+
+.mode-container {
+    display: flex;
+    align-items: center;
+}
+
+.mode-state {
+    font-weight: 800;
+    margin-left: 5px;
+    font-size: .9rem;
+}
+
+.MuiSvgIcon-root {
+    font-size: 20px !important;
+}
+
+.MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
+
+.dark-header>p,
+.dark-header .mode-container .mode-state,
+.dark-header .mode-container .MuiSvgIcon-root {
+    color: #fff !important;
+}
+
+@media (max-width: 445px) {
+    p.where-in-the-world-txt {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 383px) {
+    header {
+        padding: 1.3em 2em;
+    }
+}
